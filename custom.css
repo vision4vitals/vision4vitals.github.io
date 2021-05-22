@@ -1,0 +1,19 @@
+.first-header{
+	margin-top: 10px
+}
+
+body{
+	font-size: 16px
+}
+
+a:link{
+  color: #FFD700;
+}
+
+a:hover {
+  color: #FF69B4;
+}
+
+a:visited {
+  color: #FF69B4;
+}

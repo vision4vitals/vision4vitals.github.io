@@ -1,2 +1,214 @@
-Hello World! Website in construction. 
-Details of the competition coming soon...
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+        <title>V4V 2021 - Vision for Vitals (ICCV 2021)</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="./bootstrap.min.css" rel="stylesheet">
+        <link href="./bootstrap-social.css" rel="stylesheet">
+        <link href="./custom.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="./modern-business.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+        <link href="./font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<script src="./jquery.js.download"></script>
+		<script src="./bootstrap.min.js.download"></script>
+
+		<style>
+			body {
+				background-color: #24343d;
+				color: #d7dee3;
+			}
+		</style>		
+		
+    </head>
+    <body background="bg_dark3.png">
+        <!-- Page Content -->
+        <div class="container">
+            <!-- Marketing Icons Section -->
+            <div class="row" align="center">
+				<img src="logo4.png" class="img-responsive" align="center">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="page-header first-header text-center" style="border-bottom:none"> V4V Challenge </h1>
+				<h2 class="page-header first-header text-center" style="border-bottom:none">Vision for Vitals</h2>
+                <h4 class="text-center">In conjunction with <a href="http://iccv2021.thecvf.com/home">ICCV 2021, Montreal, Canada</a><br>
+				</h4>
+                <br>
+				</div>				
+            </div>
+		
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <h2 class="page-header">Description</h2>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <p class="text-justify">
+                        Telehealth has the potential to offset the high demand for help during public health emergencies,
+                        such as the ongoing COVID pandemic, and in rural locations where health services and qualified
+                        treatment providers make services difficult if not impossible to obtain. Besides communication,
+                        the use of existing sensor infrastructure within modern smart devices for medical tests are
+                        compelling. Remote Photoplethysmography (rPPG) - the problem of non-invasively estimating
+                        blood volume variations in the microvascular tissue from video - would be well suited for these
+                        situations.
+                    </p>
+                    <p class="text-justify">
+
+                        Over the past few years a number of research groups have made rapid advances in remote PPG
+                        methods for estimating heart rate from digital video and obtained impressive results. How these
+                        various methods compare in naturalistic conditions, where spontaneous movements, facial
+                        expressions, or illumination changes are present, is relatively unknown. Most previous
+                        benchmarking efforts focused on posed situations. No commonly accepted evaluation protocol
+                        exists for estimating vital signs in spontaneous behavior with which to compare them.
+
+
+                    </p>
+                    <p class="text-justify">
+                        To enable comparisons among alternative methods, we present the 1st Vision for Vitals Workshop
+                        & Challenge (V4V 2021). This topic is germane to both computer vision and multimedia
+                        communities. For computer vision, it is an exciting approach to longstanding limitations of vital
+                        signs estimating approaches. For multimedia, remote vital signs estimation would enable more
+                        powerful applications.
+                    </p>
+
+                    
+                </div>
+            </div>
+			
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <h2 class="page-header">Main track</h2>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <p class="text-justify">
+                        The main track is intended to bring together computer vision researchers whose work is
+                        related to vision based vital signs estimation. We are soliciting original contributions which
+                        address a wide range of theoretical and application issues of remote vital signs estimation,
+                        including but not limited to:
+
+                        </p>
+                        <li>Methods for extracting vital signals from videos, including pulse rate, respiration rate,
+                          blood oxygen, and body temperature. </li>
+
+                          <li> Vision-based methods to support and augment vital signs monitoring systems, such as 
+                          face/skin detection, motion tracking, video segmentation, and optimization. </li>
+                          <li> Vision-based vital signs measurement for affective, emotional, or cognitive states. </li>
+                          <li> Vision-based vital signs measurement to assist video surveillance in-the-wild. </li>
+                          <li> Vision-based vital signs measurement to detect human liveness or manipulated images
+                          (deep fake detection).  </li>
+                          <li> Applications of vision-based vital signs monitoring </li>
+                          <li> User interfaces employing vision-based vital signs estimation </li>
+                    <p></p>
+                </div>
+            </div>
+			
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <h2 class="page-header">Challenge track</h2>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <p class="text-justify">
+                        V4V Challenge evaluates remote PPG methods for vital signs estimation on a new large
+                        corpora of face videos annotated with corresponding high-resolution videos and vital signs from contact sensors. The goal of the challenge is
+                        to reconstruct the vital signs of the subjects from the video sources. The participants will
+                        receive an annotated training set and a test set without annotations.
+                    </p>
+                    
+                    	<!--<b>If you are interested in getting 3DFAW Challenge training data please <a href="mailto:sergey.tulyakov@unitn.it?subject=3DFAW Challenge data request&amp;body=I am interested in receiving 3DFAW training data. Could you please provide it to me, when the data is ready?">email us</a> </b>-->
+                    <p class="lead">
+
+            <b>If you are interested in downloading the V4V dataset please <a href="./V4V_EULA-ICCV2021.pdf">download and sign the EULA</a> and <a href="mailto:lijun@cs.binghamton.edu,laszlojeni@cmu.edu?subject=V4V Challenge data request&amp">email the scanned copy back to lijun(at)cs(dot)binghamton(dot)edu and laszlojeni(at)cmu(dot)edu</a ></b>
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <h2 class="page-header">Evaluation and Submissions</h2>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <p class="text-justify">
+                        Please visit the <a href="">Codalab page (TBA)</a> where the competition is hosted. Additionally, the evaluation code can be downloaded <a href="https://github.com/vision4vitals/v4v_eval_scripts/blob/main/evaluate_Codalab.py">here</a> for local use by participants. The requirements file for the local environment setup can be downloaded from the same repository. Please report any bugs in the evaluation code in the issues of the repository.
+			</p> 
+			<p class="text-justify">
+			Please note that along with your submission to Codalab competition page, in <b>order to be included in the leaderboard, you are required to submit a short paper containing the description of your method</b>. For paper submission to the workshop, visit our <a href="https://cmt3.research.microsoft.com/V4V">CMT page</a>. When submitting your paper to CMT, please also email <a href="mailto:arevanur@andrew.cmu.edu?subject=V4V Challenge Codalab username/paper title&amp">arevanur(at)andrew(dot)cmu(dot)edu</a> with your username/Team name on Codalab, and your workshop paper title, to make it easier to link your paper to the Codalab submissions. 
+			</p>
+			<p class="text-justify">
+			Challenge paper submissions must be written in English and must be sent in PDF format. Please refer to the ICCV submission guidelines for instructions regarding formatting, templates, and policies. The submissions will be reviewed by the program committee and selected papers will be published in ICCV Workshop proceedings.
+		    </p> 
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <h2 class="page-header">Dates</h2>
+					<p><b>Challenge Track</b>
+						<ul>
+                            <li>May 21th: Challenge site opens, training data available</li>
+                            <li>June 25th: Testing phase begins</li>
+                            <li>July 16th: Competition ends (challenge paper submission - optional)</li>
+                        </ul>
+						</p>
+					<p><b>Workshop Track</b>
+						<ul>
+                            <li>July 26th: Paper submission deadline</li>
+                            <li>August 9th: Notification of acceptance</li>
+                            <li>August 16th: Camera ready submission</li>
+                        </ul>
+						</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <h2 class="page-header">Workshop chairs</h2>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <ul>
+                        <li><a href="http://www.laszlojeni.com/">Laszlo A. Jeni</a>, Carnegie Mellon University, USA</li>
+                        <li><a href="http://www.cs.binghamton.edu/~lijun/">Lijun Yin</a>, Binghamton University, USA</li>
+                    </ul>
+              
+			<p><b>Data chairs</b>
+			<ul>
+                        <li><a href="">Ambareesh Revanur</a>, Carnegie Mellon University, USA</li>
+                        <li><a href="">Zhihua Li</a>, Binghamton University, USA</li>
+			            <li><a href="">Umur A. Ciftci</a>, Binghamton University, USA</li>
+                        </ul>
+			</p>
+           
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <h2 class="page-header">Technical program committee</h2>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
+                    <strong>TBA</strong>
+			<ul>
+				<!-- <li>Abhinav Dhall, Australian National University, Australia </li>
+				<li>Gábor Szirtes, KÜRT Akadémia / bsi.ai</li>
+				<li>Hamdi Dibeklioglu, Bilkent University, Turkey</li>
+				<li>Michel Valstar, University of Nottingham, UK </li>
+				<li>Patrik Huber, University of Surrey, UK </li>
+				<li>Sergio Escalera, University of Barcelona, Spain </li>
+				<li>Shaun Canavan, University of South Florida, USA </li>
+				<li>Vitomir Štruc, University of Ljubljana, Slovenia</li>
+				<li>Xiaoming Liu, Michigan State University, USA</li>
+				<li>Xing Zhang, A9</li>				
+				<li>Zoltan Kato, University of Szeged, Hungary </li>	 -->			
+				
+			</ul>
+                </div>
+            </div>
+		    </div>
+		
+    
+	
+
+	
+
+</div></body></html>
