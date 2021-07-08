@@ -29,7 +29,7 @@
             <div class="row" align="center">
 				<img src="logo4.png" class="img-responsive" align="center">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1 class="page-header first-header text-center" style="border-bottom:none"> V4V Challenge </h1>
+                <h1 class="page-header first-header text-center" style="border-bottom:none"> V4V Workshop & Challenge </h1>
 				<h2 class="page-header first-header text-center" style="border-bottom:none">Vision for Vitals</h2>
                 <h4 class="text-center">In conjunction with <a href="http://iccv2021.thecvf.com/home">ICCV 2021, Montreal, Canada</a><br>
 				</h4>
@@ -171,9 +171,9 @@
                     </p>
                     
 
-                    <p> There are two subtracks in the challenge - (1) Heart rate (HR) estimation and (2) Respiration rate (RR) estimation. All participants are required to submit predictions to HR sub-challenge. Although, participation in RR sub-challenge is optional, we encourage all participants to involve in both sub-challenges. To learn more, please head over to this <a href="https://competitions.codalab.org/competitions/31978#learn_the_details-submission">page</a> on Codalab.</p>
+                    <p class="text-justify"> There are two subtracks in the challenge - (1) Heart rate (HR) estimation and (2) Respiration rate (RR) estimation. All participants are required to submit predictions to HR sub-challenge. Although, participation in RR sub-challenge is optional, we encourage all participants to involve in both sub-challenges. To learn more, please head over to this <a href="https://competitions.codalab.org/competitions/31978#learn_the_details-submission">page</a> on Codalab.</p>
 
-                    <p>
+                    <p class="text-justify">
                         The datasets may be used for the V4V Challenge of ICCV 2021 only. The recipient of the datasets must be a full-time faculty, researcher or employee of an organization (not a student) and <b>must agree to <a href="https://competitions.codalab.org/competitions/31978#learn_the_details-terms_and_conditions">terms and conditions</a></b> listed on the codalab.
                     </p>
 
@@ -183,9 +183,24 @@
             If you are interested in downloading the V4V dataset please <a href="./V4V_EULA-ICCV2021.pdf">download and sign the EULA</a> and <a href="mailto:lijun@cs.binghamton.edu,laszlojeni@cmu.edu,zli191@binghamton.edu?subject=V4V Challenge data request&amp">email the scanned copy back to lijun(at)cs(dot)binghamton(dot)edu, zli191(at)binghamton(dot)edu and laszlojeni(at)cmu(dot)edu</a >
                     </p>
 
+                    <p class="h4">
+                        <b> ** Frequently Asked Questions (FAQs) ** </b>
+                    </p>
+
+                    <p style="padding-bottom:10px">
+                        
+                    <p><b>Q1:</b> How are the V4V ground truth physiological signals collected? </li></p>
+                    <p class="text-justify"><b>A:</b> Details regarding the acquisition of data can be found in Section 2.2.3 in the paper: Multimodal Spontaneous Emotion Corpus for Human Behavior Analysis (<a href="https://openaccess.thecvf.com/content_cvpr_2016/html/Zhang_Multimodal_Spontaneous_Emotion_CVPR_2016_paper.html">link</a>). The ground truth device gives us a continuous BP signal. Following the signal acquisition, HR is calculated using an off-the-shelf software by computing peak-to-peak interval in the BP signal. (If you would like to read more about the off-the-shelf software, please visit this <a href="https://www.biopac.com/wp-content/uploads/acqknowledge_software_guide.pdf">PDF</a>).</p>
+
+                    </p>
+                    <p style="padding-bottom:10px">
+                        
+                        <p><b>Q2:</b> Can we use external data? </li></p>
+                        <p class="text-justify"><b>A:</b> You may use external data for <i>training</i> your model as long as you document it in your accompanying paper.</p>
+                        </p>
+
                 </div>
             </div>
-
 
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
@@ -264,10 +279,6 @@
                 </div>
             </div>
 		    </div>
-		
-    
-	
-
 	
 
 </div></body></html>
